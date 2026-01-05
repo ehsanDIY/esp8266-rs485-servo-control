@@ -23,7 +23,7 @@ Demonstrate **noise-immune, long-distance analog control** for servos using low-
 |--------|----|--------|
 | A0 | → | Potentiometer wiper |
 | D1 (GPIO5) | → | DI (Data Input) of MAX485 |
-| D2 (GPIO4) | → | DE & RE (tie together for auto TX/RX control) |
+| GND | → | DE & RE |
 | GND | → | GND of MAX485 & Pot |
 | 3.3V | → | VCC of MAX485 |
 
@@ -34,7 +34,7 @@ Demonstrate **noise-immune, long-distance analog control** for servos using low-
 |--------|----|--------|
 | D0 (GPIO16) | → | Servo signal |
 | D1 (GPIO5) | → | RO (Receiver Output) of MAX485 |
-| D2 (GPIO4) | → | DE & RE (tied together, driven low for receive mode) |
+| VCC | → | DE & RE |
 | GND | → | GND of MAX485 & Servo |
 | VIN / External 5V | → | Servo VCC (+) |
 | GND | → | Servo GND (–) |
