@@ -11,7 +11,7 @@ Demonstrate **noise-immune, long-distance analog control** for servos using low-
 |---------|----------|
 | ESP8266 (e.g., NodeMCU) | 2 |
 | MAX485 / SN75176 Module | 2 |
-| SG90 or MG996R Servo | 1 |
+| SG90 or MG90S Servo | 1 |
 | 10kΩ Potentiometer | 1 |
 | 5V Power Supply (≥1A for servo) | 1 |
 | Jumper Wires & Breadboard | — |
