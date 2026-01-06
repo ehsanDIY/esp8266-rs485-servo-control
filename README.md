@@ -2,7 +2,7 @@
 
 > 🛠️ Transmit analog potentiometer values over RS485 to control a servo motor in real time — using two ESP8266 modules.
 ## Video 
-[![Remote Servo Control via RS485]]([https://youtu.be/dQw4w9WgXcQ](https://youtu.be/Qs3ggerBucA))
+Watch the full tutorial on [![Remote Servo Control via RS485]](https://youtu.be/Qs3ggerBucA)
 ## 🎯 Goal
 Demonstrate **noise-immune, long-distance analog control** for servos using low-cost hardware — ideal for industrial or outdoor setups where WiFi is unreliable.
 
